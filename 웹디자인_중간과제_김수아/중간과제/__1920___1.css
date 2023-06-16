@@ -1,0 +1,142 @@
+
+
+body{
+	
+	margin: 0;
+	background-color: black;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 400
+}
+
+video{
+	width: 100%;
+	height: 100;
+	object-fit: cover;
+
+}
+.intro{
+	margin-bottom:300px;
+}
+
+.video{
+	filter:brightness(0.8);
+	margin-bottom:300px;
+}
+.logo{
+	font-size: 70px;
+	font-weight: 900;
+	mix-blend-mode:difference;
+}
+
+.title{
+  position: relative; 
+  display: inline-block;
+	margin-bottom: 150px
+		
+}
+
+.video {
+  display: block; /* video 요소를 블록 레벨 요소로 변경합니다. */
+  margin: 0 auto; /* video 요소를 수평 중앙 정렬합니다. */
+}
+
+.text {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  font-size: 50px; 
+  color: #fff; 
+  z-index: 999;
+font-weight: 900;
+font-style: normal;
+		mix-blend-mode:difference
+			
+}
+
+.menu {
+	font-size: 30px;
+font-weight: 400;
+}
+
+.sdimg{
+	display: flex;
+	position: relative;
+	width: 100%;
+	font-size: 20px;
+	justify-content: center;
+}
+
+.sdimg img{
+	width: 48%;
+		margin:10px
+}
+
+.sdimg text{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.artwork{
+	margin-bottom: 100px;
+}
+.caption{ z-index:1300;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+.footer-container {
+  background: linear-gradient(#000000, 	#4b0082,#9400d3,#ff77ff);
+  color: #fff;
+  height: 400px;
+  padding: 40px;
+	text-align: center;
+	line-height: 50%;
+	font-size: 20px;
+}
+
+
+
+#sdc{
+	font-size: 20px;
+	background: linear-gradient(#FF0000, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+	margin-bottom: 300px;
+	line-height: 100%
+		
+}
+#etc{
+	font-size: 20px;
+	background: linear-gradient(#99CCFF, #FFCCCC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+	margin-bottom: 300px;
+	line-height: 100%
+}
+
+#evc{
+	font-size: 20px;
+	background: linear-gradient(#87cefa, #ff7f50 , #9932cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+	margin-bottom: 300px;
+	line-height: 100%
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgba(255,134,136,1.00);
+font-style: italic
+}
+
+
